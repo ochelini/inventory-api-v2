@@ -1,2 +1,5 @@
 node_modules/
 .env
+sbom.json
+cosign.key
+cosign.pub
