@@ -1,5 +1,24 @@
+# Node
 node_modules/
 .env
-sbom.json
+
+# Security
+security/cosign.key
 cosign.key
-cosign.pub
+
+# SBOM
+sbom.json
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# Keep lock files
+!.terraform.lock.hcl
+
+# Certificates and keys
+*.pem
+*.key
